@@ -24,7 +24,10 @@ header{
 footer{
     background-color: #23272A;
     color: #FFF;
+    min-height: 100px;
+    width: 100%;
 }
+
 
 .button{
     background-color: #FFF;
@@ -45,9 +48,18 @@ h2{
     padding-bottom: 30px;
 }
 
+h4{
+    color: #7983F5;
+}
+
+
 a{
     text-decoration: none;
     color: #FFF;
+}
+
+ul{
+    list-style: none;
 }
 
 
@@ -117,7 +129,7 @@ header nav.container{
 
 .button-black{
     background-color: #23272A;
-    color: ##FFF;
+    color: #FFF;
     border-radius: 20px;
     padding: 10px 12px;
     text-decoration: none;
@@ -184,3 +196,29 @@ header nav.container{
 }
 
 /* Footer */
+
+.footer-container{
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+
+li img{
+    max-width: 20px;
+}
+
+li{
+    color: #FFF;
+    padding: 5px 0;
+}
+
+hr{
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid #7983F5;
+}
+
+
