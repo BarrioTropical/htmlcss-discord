@@ -159,3 +159,28 @@ header nav.container{
 .section-grey{
     background-color: #f6f6f6;
 }
+
+.large-section{
+    width: 100;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.box-large{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.button-viola{
+    background-color: #7983F5;
+    color: #FFF;
+    border-radius: 20px;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+.box-large h3{
+    padding-bottom: 40px;
+}
+
+/* Footer */
