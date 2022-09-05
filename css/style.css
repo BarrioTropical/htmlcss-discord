@@ -219,6 +219,16 @@ hr{
     margin: 0 auto;
     width: 80%;
     border: 1px solid #7983F5;
+    margin: 10px auto;
+}
+
+.subfooter{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
 }
 
 
