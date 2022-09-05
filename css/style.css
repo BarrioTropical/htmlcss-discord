@@ -40,6 +40,11 @@ h1{
     padding-bottom: 20px;
 }
 
+h2{
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+
 a{
     text-decoration: none;
     color: #FFF;
@@ -120,18 +125,37 @@ header nav.container{
 
 /* Main Section */
 
-.row{
-    justify-content: center;
+.section-main{
+    padding: 50px 0;
+    width: 100%;
+}
+
+.column{
     margin: 0 auto;
     display: flex;
     align-items: center;
     flex-direction: row;
-flex-wrap: wrap;
+    
 }
 
-.col{
-    width: 50%;
+.column p{
+    font-size: 20px;
+}
+
+.col-left{
+    width: 70%;
     padding: 30px;
     align-items: center;
     float: left;
+}
+
+.col-right{
+    width: 70%;
+    padding: 30px;
+    align-items: center;
+    float: left;
+}
+
+.section-grey{
+    background-color: #f6f6f6;
 }
