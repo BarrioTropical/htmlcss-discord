@@ -163,7 +163,7 @@ header nav.container{
 }
 
 .col-right{
-    width: 70%;
+    width: 30%;
     padding: 30px;
     align-items: center;
     float: left;
@@ -200,6 +200,7 @@ header nav.container{
 
 .footer-container{
     margin: 0 auto;
+    width: 1170px;
     display: flex;
     width: 80%;
     justify-content: space-around;
@@ -231,6 +232,22 @@ i{
     justify-content: space-between;
     align-items: center;
     padding-bottom: 40px;
+}
+
+/* Bonus */
+
+.wave-row{
+    color:#f6f6f6;
+    display: block;
+    margin-bottom: -5px;
+}
+
+.wave-row-rotate{
+    color:#f6f6f6;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: -5px;
+    transform: rotate(180deg);
 }
 
 
