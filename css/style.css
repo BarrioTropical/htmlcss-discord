@@ -11,6 +11,7 @@
     clear: both;
 }
 
+
 /* General */
 body{
     font-family: Helvetica, Arial, sans-serif;
@@ -204,6 +205,8 @@ header nav.container{
     justify-content: space-around;
     align-items: flex-start;
     padding-top: 50px;
+    border-bottom: 1px solid #7983F5;
+    margin-bottom: 20px;
 }
 
 li img{
@@ -215,12 +218,11 @@ li{
     padding: 5px 0;
 }
 
-hr{
-    margin: 0 auto;
-    width: 80%;
-    border: 1px solid #7983F5;
-    margin: 10px auto;
+i{
+    color: white;
+    width: 20px;
 }
+
 
 .subfooter{
     margin: 0 auto;
