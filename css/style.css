@@ -139,7 +139,7 @@ header nav.container{
 /* Main Section */
 
 .section-main{
-    padding: 50px 0;
+    padding: 50px 0px 0px 0px;
     width: 100%;
 }
 
@@ -148,7 +148,7 @@ header nav.container{
     display: flex;
     align-items: center;
     flex-direction: row;
-    
+    width: 1170px;
 }
 
 .column p{
@@ -156,7 +156,7 @@ header nav.container{
 }
 
 .col-left{
-    width: 70%;
+    width: 60%;
     padding: 30px;
     align-items: center;
     float: left;
@@ -164,6 +164,20 @@ header nav.container{
 
 .col-right{
     width: 30%;
+    padding: 30px;
+    align-items: center;
+    float: left;
+}
+
+.col-left-reverse{
+    width: 70%;
+    padding: 30px;
+    align-items: center;
+    float: left;
+}
+
+.col-right-reverse{
+    width: 70%;
     padding: 30px;
     align-items: center;
     float: left;
@@ -245,7 +259,7 @@ i{
 .wave-row-rotate{
     color:#f6f6f6;
     display: block;
-    margin-top: 0px;
+    margin-top: -10px;
     margin-bottom: -5px;
     transform: rotate(180deg);
 }
